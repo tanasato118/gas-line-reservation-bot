@@ -1,0 +1,23 @@
+# 秘密情報（絶対に commit しない）
+.env
+.clasp.json
+*.pem
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# clasp 関連
+.clasprc.json
+
+# 内部開発用
+.claude/
+.cursor/
+.cursorrules
+.mcp.json
+
+# 実行ログ
+logs/
+*.log
